@@ -82,8 +82,84 @@ export interface VariableDefinition {
  */
 export const variableDefinitions: Record<string, VariableDefinition> = {
     // ========================================
-    // ADD YOUR VARIABLES HERE
+    // SECTION: FALLING ON ITS OWN
     // ========================================
+    fallingGuessOne: {
+        defaultValue: 8,
+        type: 'number',
+        label: 'Guess after 1 second',
+        description: 'Where the student thinks the ball is 1 second after release',
+        unit: 'm',
+        min: 0,
+        max: 50,
+        step: 0.5,
+        color: '#64748B',
+    },
+    fallingGuessTwo: {
+        defaultValue: 16,
+        type: 'number',
+        label: 'Guess after 2 seconds',
+        description: 'Where the student thinks the ball is 2 seconds after release',
+        unit: 'm',
+        min: 0,
+        max: 50,
+        step: 0.5,
+        color: '#64748B',
+    },
+    fallingGuessThree: {
+        defaultValue: 24,
+        type: 'number',
+        label: 'Guess after 3 seconds',
+        description: 'Where the student thinks the ball is 3 seconds after release',
+        unit: 'm',
+        min: 0,
+        max: 50,
+        step: 0.5,
+        color: '#64748B',
+    },
+    fallingDropTime: {
+        defaultValue: 0,
+        type: 'number',
+        label: 'Time since release',
+        description: 'Seconds since the basketball was released',
+        unit: 's',
+        min: 0,
+        max: 3,
+        step: 0.05,
+        color: '#62D0AD',
+    },
+    fallingDropPlaying: {
+        defaultValue: false,
+        type: 'boolean',
+        label: 'Drop animation playing',
+        description: 'Whether the falling ball figure is running',
+    },
+    fallingGapHighlight: {
+        defaultValue: '',
+        type: 'linkedHighlight',
+        label: 'Falling gap highlight',
+        description: 'Which one-second drop is highlighted in the falling figure',
+        color: '#62D0AD',
+        bgColor: 'rgba(98, 208, 173, 0.2)',
+    },
+    answerFallingFourthSecond: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Fourth second drop',
+        description: 'Metres the ball falls during its fourth second',
+        placeholder: '???',
+        correctAnswer: ['35', '35 m'],
+        color: '#8E90F5',
+    },
+    answerFallingSpeedTwoSeconds: {
+        defaultValue: '',
+        type: 'text',
+        label: 'Speed after two seconds',
+        description: 'Falling speed after 2 seconds, in metres per second',
+        placeholder: '???',
+        correctAnswer: ['20', '20 m/s', '20m/s'],
+        color: '#8E90F5',
+    },
 
     // Uncomment and modify these examples for your lesson:
 

@@ -1,4 +1,326 @@
 {
-  "version": 2,
-  "blockIds": []
+  "version": 3,
+  "blockIds": [
+    "orient-title",
+    "orient-opening",
+    "orient-promise",
+    "drop-kick-heading",
+    "drop-kick-setup",
+    "drop-kick-hook",
+    "drop-kick-visual",
+    "falling-heading",
+    "falling-setup",
+    "falling-hook",
+    "falling-visual",
+    "falling-reflection",
+    "falling-question-pattern",
+    "falling-question-speed",
+    "sideways-heading",
+    "sideways-setup",
+    "sideways-hook",
+    "sideways-visual",
+    "together-heading",
+    "together-setup",
+    "together-hook",
+    "together-visual",
+    "close-heading",
+    "close-summary",
+    "close-forward"
+  ],
+  "rows": [
+    {
+      "id": "layout-orient-title",
+      "type": "stack",
+      "columns": [
+        [
+          "orient-title"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-orient-opening",
+      "type": "stack",
+      "columns": [
+        [
+          "orient-opening"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-orient-promise",
+      "type": "stack",
+      "columns": [
+        [
+          "orient-promise"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-drop-kick-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "drop-kick-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-drop-kick-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "drop-kick-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-drop-kick-hook",
+      "type": "stack",
+      "columns": [
+        [
+          "drop-kick-hook"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-drop-kick-visual",
+      "type": "stack",
+      "columns": [
+        [
+          "drop-kick-visual"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-falling-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "falling-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-falling-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "falling-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-falling-hook",
+      "type": "split",
+      "columns": [
+        [
+          "falling-hook"
+        ],
+        [
+          "falling-visual"
+        ]
+      ],
+      "props": {
+        "ratio": "1:1",
+        "gap": "lg",
+        "reverse": false,
+        "align": "start"
+      }
+    },
+    {
+      "id": "layout-falling-reflection",
+      "type": "stack",
+      "columns": [
+        [
+          "falling-reflection"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-falling-question-pattern",
+      "type": "stack",
+      "columns": [
+        [
+          "falling-question-pattern"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-falling-question-speed",
+      "type": "stack",
+      "columns": [
+        [
+          "falling-question-speed"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-sideways-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "sideways-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-sideways-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "sideways-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-sideways-hook",
+      "type": "stack",
+      "columns": [
+        [
+          "sideways-hook"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-sideways-visual",
+      "type": "stack",
+      "columns": [
+        [
+          "sideways-visual"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-together-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "together-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-together-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "together-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-together-hook",
+      "type": "stack",
+      "columns": [
+        [
+          "together-hook"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-together-visual",
+      "type": "stack",
+      "columns": [
+        [
+          "together-visual"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-close-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "close-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-close-summary",
+      "type": "stack",
+      "columns": [
+        [
+          "close-summary"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-close-forward",
+      "type": "stack",
+      "columns": [
+        [
+          "close-forward"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    }
+  ]
 }
