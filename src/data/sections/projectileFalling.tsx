@@ -42,7 +42,6 @@ const MAX_TIME = 3;
 const ACCENT = "#62D0AD";
 const INK = "#334155";
 const STRUCTURE = "#64748B";
-const PAPER = "#F1F5F9";
 
 const yForMetres = (metres: number) => TOP_Y + metres * PX_PER_METRE;
 const metresFallen = (seconds: number) => 5 * seconds * seconds;
@@ -111,14 +110,17 @@ function FallingPoleDrawing() {
         >
             <g opacity={dimOthers} style={{ transition: "opacity 150ms ease-out" }}>
                 {/* time readout */}
-                <text x={PAD} y={30} fill={INK} fontSize="12" style={{ fontVariantNumeric: "tabular-nums" }}>
+                <text x={PAD} y={28} fill={INK} fontSize="12" style={{ fontVariantNumeric: "tabular-nums" }}>
                     {`t = ${time.toFixed(1)} s`}
                 </text>
-                <text x={POLE_X - 18} y={34} fill={STRUCTURE} fontSize="11" textAnchor="end">
+                <text x={POLE_X - 18} y={28} fill={STRUCTURE} fontSize="11" textAnchor="end">
                     metres fallen
                 </text>
-                <text x={TAG_X + TAG_WIDTH / 2} y={34} fill={STRUCTURE} fontSize="11" textAnchor="middle">
+                <text x={TAG_X + TAG_WIDTH / 2} y={28} fill={STRUCTURE} fontSize="11" textAnchor="middle">
                     your guess
+                </text>
+                <text x={TAG_X + TAG_WIDTH + 16} y={28} fill={STRUCTURE} fontSize="11">
+                    actual
                 </text>
 
                 {/* the measuring pole */}
@@ -163,7 +165,7 @@ function FallingPoleDrawing() {
                                 fill={ACCENT} fontSize="11"
                                 style={{ fontVariantNumeric: "tabular-nums" }}
                             >
-                                {`after ${second} s: ${formatMetres(trueDepth)}`}
+                                {`${second} s: ${formatMetres(trueDepth)}`}
                             </text>
                         </g>
                     );
@@ -223,7 +225,6 @@ function FallingPoleDrawing() {
 
                 {/* the falling basketball */}
                 <circle cx={BALL_X} cy={ballY} r="11" fill={ACCENT} />
-                <circle cx={BALL_X} cy={ballY} r="11" fill="none" stroke={ACCENT} strokeWidth="2.5" />
                 <text
                     x={BALL_X + 16} y={ballY - 12}
                     fill={ACCENT} fontSize="12"
@@ -237,7 +238,7 @@ function FallingPoleDrawing() {
             {gapsVisible && (
                 <>
                     <text
-                        x={VIEWBOX_WIDTH - PAD} y={34}
+                        x={VIEWBOX_WIDTH - PAD} y={28}
                         fill={STRUCTURE} fontSize="11" textAnchor="end"
                         opacity={dimOthers}
                         style={{ transition: "opacity 150ms ease-out" }}
@@ -295,7 +296,6 @@ function FallingPoleDrawing() {
                     <feDropShadow dx="0" dy="1" stdDeviation="1.5" floodColor="#0F172A" floodOpacity="0.2" />
                 </filter>
             </defs>
-            <rect x="0" y="0" width="0" height="0" fill={PAPER} />
         </svg>
     );
 }
