@@ -11,8 +11,8 @@
     "falling-heading",
     "falling-setup",
     "falling-hook",
-    "falling-visual",
     "falling-reflection",
+    "falling-visual",
     "falling-question-pattern",
     "falling-question-speed",
     "sideways-heading",
@@ -141,7 +141,8 @@
       "type": "split",
       "columns": [
         [
-          "falling-hook"
+          "falling-hook",
+          "falling-reflection"
         ],
         [
           "falling-visual"
@@ -152,18 +153,6 @@
         "gap": "lg",
         "reverse": false,
         "align": "start"
-      }
-    },
-    {
-      "id": "layout-falling-reflection",
-      "type": "stack",
-      "columns": [
-        [
-          "falling-reflection"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
       }
     },
     {
