@@ -11,8 +11,8 @@
     "falling-heading",
     "falling-setup",
     "falling-hook",
-    "falling-question-pattern",
     "falling-reflection",
+    "falling-question-pattern",
     "falling-visual",
     "falling-question-speed",
     "sideways-heading",
@@ -142,8 +142,8 @@
       "columns": [
         [
           "falling-hook",
-          "falling-question-pattern",
-          "falling-reflection"
+          "falling-reflection",
+          "falling-question-pattern"
         ],
         [
           "falling-visual"
