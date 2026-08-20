@@ -8,6 +8,7 @@ import {
     InlineFeedback,
     InlineLinkedHighlight,
     InteractionHintSequence,
+    InlineTooltip,
 } from "@/components/atoms";
 import { Figure, FigureSlider } from "@/components/molecules";
 import { useVar, useSetVar } from "@/stores";
@@ -473,7 +474,7 @@ export const projectileFallingBlocks: ReactElement[] = [
 
     <StackLayout key="layout-block-1787191394579" maxWidth="xl">
         <Block id="block-1787191394579" padding="sm">
-            <EditableParagraph id="para-block-1787191394579" blockId="block-1787191394579">This is para /</EditableParagraph>
+            <EditableParagraph id="para-block-1787191394579" blockId="block-1787191394579">This is para  <InlineTooltip tooltip={"Tooltip content"} color={"#F59E0B"} bgColor={"rgba(245, 158, 11, 0.15)"} position={"auto"} maxWidth={400} id={"inlineTooltip-1ce4e095-264d-491e-a589-7f13c55c60bd"}>radius</InlineTooltip></EditableParagraph>
         </Block>
     </StackLayout>,
 ];
