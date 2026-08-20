@@ -473,7 +473,7 @@ export const projectileFallingBlocks: ReactElement[] = [
 
     <StackLayout key="layout-block-1787191394579" maxWidth="xl">
         <Block id="block-1787191394579" padding="sm">
-            <EditableParagraph id="para-block-1787191394579" blockId="block-1787191394579">This is para</EditableParagraph>
+            <EditableParagraph id="para-block-1787191394579" blockId="block-1787191394579">This is para /</EditableParagraph>
         </Block>
     </StackLayout>,
 ];
