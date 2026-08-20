@@ -15,6 +15,7 @@
     "falling-question-pattern",
     "falling-visual",
     "falling-question-speed",
+    "block-1787191394579",
     "sideways-heading",
     "sideways-setup",
     "sideways-hook",
@@ -162,6 +163,18 @@
       "columns": [
         [
           "falling-question-speed"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-block-1787191394579",
+      "type": "stack",
+      "columns": [
+        [
+          "block-1787191394579"
         ]
       ],
       "props": {
