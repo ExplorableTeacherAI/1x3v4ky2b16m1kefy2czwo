@@ -2,8 +2,10 @@
   "version": 3,
   "blockIds": [
     "orient-title",
+    "block-1787567186729",
     "orient-opening",
     "orient-promise",
+    "block-1787567267198",
     "drop-kick-heading",
     "drop-kick-setup",
     "drop-kick-hook",
@@ -13,8 +15,8 @@
     "falling-hook",
     "falling-reflection",
     "falling-question-pattern",
-    "falling-visual",
     "falling-question-speed",
+    "falling-visual",
     "block-1787191394579",
     "sideways-heading",
     "sideways-setup",
@@ -42,7 +44,19 @@
       }
     },
     {
-      "id": "layout-orient-opening",
+      "id": "layout-block-1787567186729",
+      "type": "stack",
+      "columns": [
+        [
+          "block-1787567186729"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "editor-full-orient-opening",
       "type": "stack",
       "columns": [
         [
@@ -59,6 +73,18 @@
       "columns": [
         [
           "orient-promise"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-block-1787567267198",
+      "type": "stack",
+      "columns": [
+        [
+          "block-1787567267198"
         ]
       ],
       "props": {
@@ -144,7 +170,8 @@
         [
           "falling-hook",
           "falling-reflection",
-          "falling-question-pattern"
+          "falling-question-pattern",
+          "falling-question-speed"
         ],
         [
           "falling-visual"
@@ -155,18 +182,6 @@
         "gap": "lg",
         "reverse": false,
         "align": "start"
-      }
-    },
-    {
-      "id": "layout-falling-question-speed",
-      "type": "stack",
-      "columns": [
-        [
-          "falling-question-speed"
-        ]
-      ],
-      "props": {
-        "maxWidth": "xl"
       }
     },
     {

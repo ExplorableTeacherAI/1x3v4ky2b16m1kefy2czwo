@@ -1,7 +1,7 @@
 import { type ReactElement } from "react";
 import { Block } from "@/components/templates";
 import { StackLayout } from "@/components/layouts";
-import { EditableH1, EditableParagraph } from "@/components/atoms";
+import { EditableH1, EditableParagraph, InlineTooltip } from "@/components/atoms";
 
 export const projectileOrientBlocks: ReactElement[] = [
     <StackLayout key="layout-orient-title" maxWidth="xl">
@@ -23,6 +23,12 @@ export const projectileOrientBlocks: ReactElement[] = [
         </Block>
     </StackLayout>,
 
+    <StackLayout key="layout-block-1787567186729" maxWidth="xl">
+        <Block id="block-1787567186729" padding="sm">
+            <EditableParagraph id="para-block-1787567186729" blockId="block-1787567186729"></EditableParagraph>
+        </Block>
+    </StackLayout>,
+
     <StackLayout key="layout-orient-promise" maxWidth="xl">
         <Block id="orient-promise" padding="sm">
             <EditableParagraph id="para-orient-promise" blockId="orient-promise">
@@ -30,6 +36,12 @@ export const projectileOrientBlocks: ReactElement[] = [
                 same rate as one dropped from your hand. If you can already work out a distance from a
                 speed and a time, you have everything you need to start.
             </EditableParagraph>
+        </Block>
+    </StackLayout>,
+
+    <StackLayout key="layout-block-1787567267198" maxWidth="xl">
+        <Block id="block-1787567267198" padding="sm">
+            <EditableParagraph id="para-block-1787567267198" blockId="block-1787567267198"><InlineTooltip tooltip={"Tooltip content"} color={"#F59E0B"} bgColor={"rgba(245, 158, 11, 0.15)"} position={"auto"} maxWidth={400} id={"inlineTooltip-b82a25f4-e9a4-4f14-be59-bcbdd6353bbf"}>term</InlineTooltip></EditableParagraph>
         </Block>
     </StackLayout>,
 ];
