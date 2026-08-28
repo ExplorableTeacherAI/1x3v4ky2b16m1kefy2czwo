@@ -53,7 +53,7 @@ export const projectileOrientBlocks: ReactElement[] = [
 
     <StackLayout key="layout-block-1787919075371" maxWidth="xl">
         <Block id="block-1787919075371" padding="sm">
-            <EditableParagraph id="para-block-1787919075371" blockId="block-1787919075371">this para /</EditableParagraph>
+            <EditableParagraph id="para-block-1787919075371" blockId="block-1787919075371">this para  <InlineTooltip tooltip={"Tooltip content"} color={"#F59E0B"} bgColor={"rgba(245, 158, 11, 0.15)"} position={"auto"} maxWidth={400} id={"inlineTooltip-b8a24948-554a-469d-8d11-e37a29ff1834"}>term</InlineTooltip></EditableParagraph>
         </Block>
     </StackLayout>,
 
