@@ -7,6 +7,7 @@
     "orient-opening",
     "block-1787567267198",
     "block-1787886881263",
+    "block-1787919075371",
     "block-1787886871092",
     "drop-kick-heading",
     "drop-kick-setup",
@@ -99,6 +100,18 @@
       "columns": [
         [
           "block-1787886881263"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-block-1787919075371",
+      "type": "stack",
+      "columns": [
+        [
+          "block-1787919075371"
         ]
       ],
       "props": {
