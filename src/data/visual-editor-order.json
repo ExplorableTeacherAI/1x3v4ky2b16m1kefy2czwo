@@ -3,8 +3,8 @@
   "blockIds": [
     "orient-title",
     "block-1787567186729",
-    "orient-opening",
     "orient-promise",
+    "orient-opening",
     "block-1787567267198",
     "block-1787886881263",
     "block-1787886871092",
@@ -58,11 +58,11 @@
       }
     },
     {
-      "id": "layout-block-1787567186729",
+      "id": "layout-orient-promise",
       "type": "stack",
       "columns": [
         [
-          "orient-opening"
+          "orient-promise"
         ]
       ],
       "props": {
@@ -70,11 +70,11 @@
       }
     },
     {
-      "id": "layout-orient-promise",
+      "id": "editor-full-orient-opening",
       "type": "stack",
       "columns": [
         [
-          "orient-promise"
+          "orient-opening"
         ]
       ],
       "props": {
